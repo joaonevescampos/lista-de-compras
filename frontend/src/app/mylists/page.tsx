@@ -11,7 +11,7 @@ export default function MyLists() {
         <hr />
         <Link href="/mylists" className="font-bold">Home</Link>
         <Link href="/mylists" className="font-bold">Meu perfil</Link>
-        <Link href="/mylists" className="font-bold absolute top-8 right-8 xl:static">Sair</Link>
+        <Link href="/" className="font-bold absolute top-8 right-8 xl:static">Sair</Link>
         <Image
             src={comprasImg}
             width={400}
