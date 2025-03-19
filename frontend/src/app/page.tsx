@@ -17,7 +17,7 @@ export default function Login() {
             </legend>
             <fieldset className="flex flex-col gap-4 bg-white p-8 rounded-2xl w-full max-w-[500px]">
               <div className="flex flex-col">
-                <label htmlFor="email" className="text-base mb-1">
+                <label htmlFor="email" className="text-sm mb-1">
                   e-mail
                 </label>
                 <input
@@ -27,7 +27,7 @@ export default function Login() {
                 />
               </div>
               <div className="flex flex-col">
-                <label htmlFor="password" className="text-base mb-1">
+                <label htmlFor="password" className="text-sm mb-1">
                   senha
                 </label>
                 <input

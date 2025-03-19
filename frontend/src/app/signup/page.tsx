@@ -17,8 +17,8 @@ export default function SignUp() {
             </legend>
             <fieldset className="flex flex-col gap-4 bg-white p-4 rounded-2xl w-full max-w-[500px]">
               <div className="flex flex-col">
-                <label htmlFor="email" className="text-base mb-1">
-                  nome
+                <label htmlFor="email" className="text-sm mb-1">
+                  Nome
                 </label>
                 <input
                   type="text"
@@ -27,7 +27,7 @@ export default function SignUp() {
                 />
               </div>
               <div className="flex flex-col">
-                <label htmlFor="email" className="text-base mb-1">
+                <label htmlFor="email" className="text-sm mb-1">
                   e-mail
                 </label>
                 <input
@@ -37,8 +37,8 @@ export default function SignUp() {
                 />
               </div>
               <div className="flex flex-col">
-                <label htmlFor="password" className="text-base mb-1">
-                  senha
+                <label htmlFor="password" className="text-sm mb-1">
+                  Senha
                 </label>
                 <input
                   type="password"
@@ -47,7 +47,7 @@ export default function SignUp() {
                 />
               </div>
               <div className="flex flex-col">
-                <label htmlFor="password" className="text-base mb-1">
+                <label htmlFor="password" className="text-sm mb-1">
                   Confirmar senha
                 </label>
                 <input
